@@ -151,7 +151,6 @@ jQuery(function ($) {
 			});
 
 			$input.val('');
-
 			this.updateStore();
 			this.render();
 		},
@@ -189,7 +188,6 @@ jQuery(function ($) {
 			} else {
 				this.todos[this.indexFromEl(el)].title = val;
 			}
-
 			this.updateStore();
 			this.render();
 		},
